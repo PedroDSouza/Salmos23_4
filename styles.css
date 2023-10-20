@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Press Start 2P', sans-serif; 
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('cenario_deserto.gif');
+    background-size: 100% 100%;
+    z-index: -1;
+    filter: grayscale(100%);
+}
+
+.soldado {
+    position: absolute;
+    width: 100px;
+    top: 83%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.frase-pixelada {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #6A6932;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
